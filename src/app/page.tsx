@@ -24,7 +24,6 @@ export default function Home() {
     <CompaignSection/>
     <TryPostPilotRiskFreeSection/>
     <LatestTrendsSection/>
-    <Footer/>
    </div>
   );
 }

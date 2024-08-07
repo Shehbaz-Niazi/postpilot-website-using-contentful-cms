@@ -54,7 +54,7 @@ const CompaignSection = () => {
           </div>
           <ButtonComponent
             title="Read Case study"
-            className="mt-10 px-10 py-3  text-black bg-white border-2 border-black "
+            className="mt-10 px-10 py-3  text-black  bg-white border-2 border-black "
           />
 
           <div className="flex md:flex-row flex-col justify-between mt-10 items-center md:gap-y-0 gap-y-5">

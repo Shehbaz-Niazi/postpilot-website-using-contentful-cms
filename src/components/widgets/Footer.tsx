@@ -66,7 +66,7 @@ const Footer = () => {
                         </div>
                         <div className="space-x-4  md:mt-0 mt-10 ">
                         <ButtonComponent title="Login" className="px-6 py-2 bg-white border-2 border-black text-black"/>
-                        <ButtonComponent title="Sign Up"  className="px-10 py-2 border-2  md:mt-0 mt-3"/> 
+                        <ButtonComponent title="Sign Up"  className="px-10 py-2 text-white bg-orange border-2  md:mt-0 mt-3"/> 
                         </div>
                  </div>
 

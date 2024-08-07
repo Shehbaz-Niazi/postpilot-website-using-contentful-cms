@@ -60,7 +60,7 @@ const PostCardSection = () => {
         </div>
 
     <div className="mt-10">
-      <ButtonComponent title="Try it RISK-free" className="px-10 py-3 "/>
+      <ButtonComponent title="Try it RISK-free" className="px-10 text-white bg-orange py-3 "/>
     </div>
 
       </div>

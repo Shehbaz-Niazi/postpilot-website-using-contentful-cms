@@ -3,7 +3,7 @@ import { ButtonProps } from "./Types"
 
 
 const ButtonComponent:React.FC<ButtonProps> = ({title,className}) => {
-    let defaultColor = "text-xs font-Inter tracking-wider font-bold leading-6  bg-orange  rounded-xl text-white shadow-textBlack border-b-4 border-r-4 border-black"
+    let defaultColor = "text-xs font-Inter tracking-wider font-bold leading-6    rounded-xl  shadow-textBlack border-b-4 border-r-4 border-black"
 
     
 

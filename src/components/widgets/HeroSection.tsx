@@ -22,7 +22,7 @@ const HeroSection = () => {
 
                        <div className="flex gap-x-10 mt-10 md:flex-row flex-col">
                           <div>
-                            <ButtonComponent title="TRY IT RISK-FREE" className="px-12 py-3"/>
+                            <ButtonComponent title="TRY IT RISK-FREE" className="bg-orange text-white px-12 py-3"/>
                           </div>
 
                           <div>

@@ -23,7 +23,7 @@ export const DragCards = () => {
       </h2>
 
       <div className="mt-10 flex justify-center">
-        <ButtonComponent title="Try it RISK-free" className="px-12 py-3"/>
+        <ButtonComponent title="Try it RISK-free" className="px-12 py-3 text-white bg-orange"/>
       </div>
 
       <Cards />
