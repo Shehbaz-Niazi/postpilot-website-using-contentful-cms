@@ -5,6 +5,12 @@ import { twMerge } from "tailwind-merge";
 import { DragCardProps } from "../shared/Types";
 import ButtonComponent from "../shared/Button";
 import Image from "next/image";
+import MenImage from "@/components/assets/photos/men.jpg";
+import MenImage2 from "@/components/assets/photos/men2.jpg";
+import MenImage3 from "@/components/assets/photos/men2.jpg";
+import WomenImage from "@/components/assets/photos/women.jpg";
+import WomenImage2 from "@/components/assets/photos/women2.jpg";
+import WomenImage3 from "@/components/assets/photos/women3.jpg";
 
 export const DragCards = () => {
   return (
@@ -27,7 +33,7 @@ export const DragCards = () => {
 
 const reviews = [
   {
-    src: "https://randomuser.me/api/portraits/men/1.jpg",
+    src: MenImage,
     alt: "John Doe",
     name: "John Doe",
     message:
@@ -39,7 +45,7 @@ const reviews = [
     className: "w-48 md:w-56",
   },
   {
-    src: "https://randomuser.me/api/portraits/women/2.jpg",
+    src: MenImage2,
     alt: "Jane Smith",
     name: "Jane Smith",
     message:
@@ -51,7 +57,7 @@ const reviews = [
     className: "w-48 md:w-48",
   },
   {
-    src: "https://randomuser.me/api/portraits/men/3.jpg",
+    src: MenImage3,
     alt: "Alex Johnson",
     name: "Alex Johnson",
     message:
@@ -63,7 +69,7 @@ const reviews = [
     className: "w-48 md:w-80",
   },
   {
-    src: "https://randomuser.me/api/portraits/women/4.jpg",
+    src: WomenImage,
     alt: "Emily Davis",
     name: "Emily Davis",
     message:
@@ -75,7 +81,7 @@ const reviews = [
     className: "w-48 md:w-72",
   },
   {
-    src: "https://randomuser.me/api/portraits/men/5.jpg",
+    src: WomenImage2,
     alt: "Michael Brown",
     name: "Michael Brown",
     message:
@@ -87,7 +93,7 @@ const reviews = [
     className: "w-48 md:w-64",
   },
   {
-    src: "https://randomuser.me/api/portraits/women/6.jpg",
+    src: WomenImage3,
     alt: "Sarah Wilson",
     name: "Sarah Wilson",
     message:

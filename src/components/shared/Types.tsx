@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image";
 import { MutableRefObject } from "react";
 
 export interface ButtonProps {
@@ -38,7 +39,7 @@ export interface BrandCardImage {
 
 export interface DragCardProps {
   containerRef: MutableRefObject<HTMLDivElement | null>;
-  src: string;
+  src: StaticImageData;
   alt: string;
   top: string;
   left: string;
